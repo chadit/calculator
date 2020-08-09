@@ -1,0 +1,15 @@
+.events {
+  width: 500px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.events ul {
+  padding: 0;
+}
+
+.events li {
+  list-style: none;
+  padding: 10px 0px;
+}
+/*# sourceMappingURL=events.css.map */
