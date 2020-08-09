@@ -4,4 +4,4 @@ services:
   calculator-service:
     build: .
     ports:
-      - 3000:3000
+      - 44075:3000
