@@ -28,7 +28,7 @@ func main() {
 	// load port from environment or default to :3000
 	port := os.Getenv("PORT")
 	if port == "" {
-		port = ":3000"
+		port = "3000"
 	}
 
 	// new instance of the app
@@ -38,7 +38,7 @@ func main() {
 	}
 
 	server := http.Server{
-		Addr:           port,
+		Addr:           ":" + port,
 		Handler:        app,
 		ReadTimeout:    readTimeout,
 		WriteTimeout:   writeTimeout,
