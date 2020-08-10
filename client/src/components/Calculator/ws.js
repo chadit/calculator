@@ -1,4 +1,6 @@
-var socket = new WebSocket("ws://localhost:3000/ws");
+//eslint-disable-line
+var HOST = window.location.origin.replace(/^http/, "ws");
+var socket = new WebSocket(HOST + "/ws");
 
 let connect = (calcCallback) => {
   console.log("Attempting Connection...");
