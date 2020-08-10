@@ -1,4 +1,3 @@
 /cmd/eventd/eventd
-/bin
 *.log
 /vendor
